@@ -89,7 +89,12 @@
     padding: 10px;
     }
 
-.italic{
+.italic1{
+    font-style: italic;
+    padding: 1px;
+    margin: 2px;
+    }
+.italic2{
     font-style: italic;
     padding: 1px;
     margin: 2px;
@@ -120,6 +125,7 @@
 
 .button{
     display: block;
+    float: center;
     margin: auto;
     margin-top:35px;
 }
