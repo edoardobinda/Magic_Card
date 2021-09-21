@@ -123,10 +123,18 @@
     margin-top: 5px;
     }
 
+.forms{
+    display: flex;
+    flex-direction: column;
+    margin-top:35px;
+    margin-bottom: 5px;
+    width: fit-content;
+}
+
 .button{
-    display: block;
-    float: center;
+    display: inline-block;
     margin: auto;
     margin-top:35px;
+    margin-bottom: 5px;
 }
 
