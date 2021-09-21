@@ -22,6 +22,8 @@ let a = Math.floor(Math.random() * 4);
 prova.innerHTML = names[a];
 }
 
+
+
 function quoteGenerator(){
 
 let people = [
@@ -35,6 +37,40 @@ let a = Math.floor(Math.random() * 4);
 prova1.innerHTML = people[a].quote;
 const prova2 = document.querySelector(".italic2");
 prova2.innerHTML = people[a].author;
+    
 }
 
 
+function function1(){
+    if (document.getElementById("form1").value.length == 0){
+        document.getElementById("oggetto1").innerHTML = "Juju Bubble";
+    }
+    else{
+    let prova = document.getElementById("form1").value;
+    document.getElementById("oggetto1").innerHTML = prova;}    
+}
+
+function function2(){
+    if (document.getElementById("form2").value.length == 0){
+        document.getElementById("oggetto2").innerHTML = "Artifact";
+    }
+    else{
+    let prova = document.getElementById("form2").value;
+    document.getElementById("oggetto2").innerHTML = prova;}    
+}
+function function3(){
+    if (document.getElementById("form3").value.length == 0){
+        document.getElementById("oggetto3").innerHTML = "If my heart had a lid, I would lift it and show you my joy.";
+    }
+    else{
+    let prova = document.getElementById("form3").value;
+    document.getElementById("oggetto3").innerHTML = prova;}    
+}
+function function4(){
+    if (document.getElementById("form4").value.length == 0){
+        document.getElementById("oggetto4").innerHTML = "-From Suq'Ata wedding ceremony";
+    }
+    else{
+    let prova = document.getElementById("form4").value;
+    document.getElementById("oggetto4").innerHTML = prova;}    
+}
