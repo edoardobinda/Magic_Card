@@ -15,7 +15,7 @@ prova.style.background = b;
 
 function nameGenerator(){
 
-let names = ["Juju Bubble", "Ice-Magalli", "Galeozzi", "Smutandone", "Mogadishu", "Vasco de Gamma"];
+let names = ["Juju Bubble", "Mana Crystal", "Old Tablet", "Doom"];
 const prova = document.querySelector(".nome");
 let a = Math.floor(Math.random() * 4);
 
